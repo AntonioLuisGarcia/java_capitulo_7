@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Ejercicio12{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
-        System.out.println("Este programa ordena el array por primos y no primos");
+        System.out.println("Este programa cambia dos numeros de un array");
         int[] array= new int[10];
 
         for(int i=0;i<10;i++){
