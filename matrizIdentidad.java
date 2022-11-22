@@ -2,11 +2,15 @@
  * 
  * @author Antonio Luis Garcia
  */
+import java.util.Scanner;
 public class matrizIdentidad{
 	public static void main(String[] args){
-        int[][] matriz=new int[5][5];
-        for(int i=0;i<5;i++){
-            for(int j=0;j<5;j++){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Diga la anchura de la matriz");
+        int ancho=sc.nextInt();
+        int[][] matriz=new int[ancho][ancho];
+        for(int i=0;i<ancho;i++){
+            for(int j=0;j<ancho;j++){
                 if(j==i){
                     matriz[i][j]=1;
                 }else{
@@ -15,12 +19,13 @@ public class matrizIdentidad{
             }
         } 
  
-        for(int i=0;i<5;i++){
-            for(int j=0;j<5;j++){
+        for(int i=0;i<ancho;i++){
+            for(int j=0;j<ancho;j++){
                 System.out.print(matriz[i][j]);
             }
             System.out.println();
         }
 
+        sc.close();
     }
 }
