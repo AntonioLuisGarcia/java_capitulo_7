@@ -1,4 +1,7 @@
-
+/*Crear una matriz identidad
+ * 
+ * @author Antonio Luis Garcia
+ */
 public class matrizIdentidad{
 	public static void main(String[] args){
         int[][] matriz=new int[5][5];
