@@ -12,13 +12,15 @@ public class Ejercicio06{
         System.out.println("Con este programa haremos un array de 15 int y lo desordaremos");
         int[] arrays= new int[15];
         for(int i=0;i<15;i++){
-            arrays[i]=sc.nextInt();
+            arrays[i]=(int)(Math.random()*21);
+            System.out.print(arrays[i]+" ");
         }
+        System.out.println();
         for(int i=1;i<=15;i++){
             if(i==15){
-                System.out.println(arrays[0]);
+                System.out.print(arrays[0]+" ");
             }else{
-            System.out.println(arrays[i]);
+            System.out.print(arrays[i]+" ");
             }
         }
         
