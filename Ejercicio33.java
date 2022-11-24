@@ -42,8 +42,6 @@ public class Ejercicio33{
         }
 
         System.out.println("El maximo valor es "+maximo+" y el minimo "+minimo+" y la media es "+total/10);
-        
-
 
         sc.close();
         }
