@@ -27,7 +27,6 @@ public class ordenararray {
         int contadorpares=0;
         int contadorimpares=0;
 
-
         for(int i=0;i<longitud;i++){
             System.out.print(array[i]+" ");
             
