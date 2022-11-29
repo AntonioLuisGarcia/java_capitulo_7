@@ -45,5 +45,6 @@ public class Ejercicio31{
         }while(salir);
 
         sc.close();
+        
         }
 }
