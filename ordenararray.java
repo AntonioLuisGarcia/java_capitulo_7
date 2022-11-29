@@ -98,6 +98,7 @@ public class ordenararray {
             }
             
             System.out.printf("Se repite el %d, %d veces",numero,contadorveces);
+            
 
             /*****************************************************************************/
 
