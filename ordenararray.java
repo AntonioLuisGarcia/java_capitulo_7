@@ -68,7 +68,6 @@ public class ordenararray {
             System.out.println();
             System.out.println();
 
-
             //ahora con un bidimensional,primero le daremos valores
 
             int filas=5;
