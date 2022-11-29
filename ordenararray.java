@@ -98,7 +98,7 @@ public class ordenararray {
             }
             
             System.out.printf("Se repite el %d, %d veces",numero,contadorveces);
-            
+
 
             /*****************************************************************************/
 
@@ -116,9 +116,11 @@ public class ordenararray {
             for(int i=0;i<numerodearray;i++){
                 for(int j=0;j<filas;j++){
                     for(int k=0;k<columnas;k++){
+
                         if(bidimensional[j][k]==dearray[i][0]){
                             dearray[i][1]++;
                         }
+
                     }
                 }
             }
