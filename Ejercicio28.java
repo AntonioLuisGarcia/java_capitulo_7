@@ -75,7 +75,7 @@ public class Ejercicio28{
 
             }
 
-            System.out.println(" ----------\n 0 1 2 3 4\n");
+            System.out.println(" ----------\n  0 1 2 3 4\n");
 
             // pide las coordenadas
 
@@ -92,8 +92,17 @@ public class Ejercicio28{
                 case VACIO:
 
                     cuadrante[x][y] = INTENTO;
+                    boolean cercana=false;
 
-                    if((x==minaX+1 || x==minaX-1) || (y==minaY+1 || y==minaY-1)){
+                    for(int i=0;i<5;i++){
+                        for(int j=0;j<4;j++){
+                            if((Math.abs(i-x))<2 && Math.abs(j-y)<2 && cuadrante[i][j]==MINA){
+                                cercana=true;
+                            }
+                        }
+                    }
+
+                    if(cercana){
                         System.out.println(" ¡Cuidado! ¡Hay una mina cerca!");
                     }
 
