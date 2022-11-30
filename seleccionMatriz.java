@@ -33,7 +33,6 @@ public class seleccionMatriz{
             System.out.println();
         }
 
-
         sc.close();
         
         }
