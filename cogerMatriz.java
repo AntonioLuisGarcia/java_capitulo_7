@@ -43,7 +43,6 @@ public class cogerMatriz{
             System.out.println();
         }
 
-
         sc.close();
         
         }
