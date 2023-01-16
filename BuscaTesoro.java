@@ -6,6 +6,7 @@ final int VACIO = 0;
 final int MINA = 1;
 final int TESORO = 2;
 final int INTENTO = 3;
+
 int x;
 int y;
 int[][] cuadrante = new int[5][4];
